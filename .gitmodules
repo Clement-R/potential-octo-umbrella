@@ -1,0 +1,3 @@
+[submodule "Wwise"]
+	path = Wwise
+	url = git@github.com:Clement-R/potential-octo-umbrella-wwise.git
