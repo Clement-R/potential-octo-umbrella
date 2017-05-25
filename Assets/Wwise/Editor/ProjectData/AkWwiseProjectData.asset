@@ -12,12 +12,54 @@ MonoBehaviour:
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
   CurrentPluginConfig: 
-  EventWwu: []
-  AuxBusWwu: []
-  StateWwu: []
-  SwitchWwu: []
-  BankWwu: []
-  ExpandedItems: []
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{2F2E30B2-2CAD-4269-A888-0829D35B7D8A}'
+    m_lastTimePsrt1: 1625550892
+    m_lastTimePart2: -1999330419
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{35EDF6B1-E3FE-40AA-9BB8-8270A378EE40}'
+    m_lastTimePsrt1: 1625570910
+    m_lastTimePart2: -1999330419
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{D592827D-0345-4109-8EB9-D67448A82A37}'
+    m_lastTimePsrt1: 1625620954
+    m_lastTimePart2: -1999330419
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{2E964DE6-B992-46EE-9A0D-B9004B848161}'
+    m_lastTimePsrt1: 1625625960
+    m_lastTimePart2: -1999330419
+    List: []
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{F24DD8D8-5185-42FC-9535-BE90BF418A6B}'
+    m_lastTimePsrt1: -2050634862
+    m_lastTimePart2: -1999330417
+    List:
+    - Name: Pewpew
+      Path: Default Work Unit\Pewpew
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Pewpew
+        ObjectType: 7
+      ID: 2145377425
+      Guid: a884b7f40625744d8f86ec9ad49077d4
+  ExpandedItems:
+  - /pew_pew_WwiseProject
+  - /pew_pew_WwiseProject/SoundBanks
+  - /pew_pew_WwiseProject/SoundBanks/Default Work Unit
   m_lastPopulateTimePsrt1: 0
   m_lastPopulateTimePart2: 0
   autoPopulateEnabled: 1
